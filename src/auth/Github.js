@@ -8,21 +8,21 @@ const Github = ({informParent = f => f}) => {
     
     const responseGithub = response => {
         console.log(response);
-        axios({
-            method: 'POST',
-            url: `${process.env.REACT_APP_API}/github-login`,
-            data: { clientID: response.clientID, accessToken: response.accessToken }
-        })
+        // axios({
+        //     method: 'POST',
+        //     url: `${process.env.REACT_APP_API}/github-login`,
+        //     data: { clientID: response.clientID, accessToken: response.accessToken }
+        // })
 
-        .then(response => {
-            console.log('GITHUB SIGNIN SUCCESS', response);
-            // inform parent component
-            informParent(response);
+        // .then(response => {
+        //     console.log('GITHUB SIGNIN SUCCESS', response);
+        //     // inform parent component
+        //     informParent(response);
             
-        })
-        .catch(error => {
-            console.log('GITHUB SIGNIN ERROR', error.response);
-        });
+        // })
+        // .catch(error => {
+        //     console.log('GITHUB SIGNIN ERROR', error.response);
+        // });
 
 }; 
 
