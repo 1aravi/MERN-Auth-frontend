@@ -14,7 +14,7 @@
     "gapi-script": "^1.2.0",
     "js-cookie": "^3.0.1",
     "jsonwebtoken": "^8.5.1",
-    "react": "^16.14.0",
+    "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-facebook-login": "^4.1.1",
     "react-github-login": "^1.0.3",
