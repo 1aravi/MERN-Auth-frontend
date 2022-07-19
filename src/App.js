@@ -10,8 +10,7 @@ return(
       <hr/>
       <p className='Lead'>
       MERN stack login register system with account activation, forgot password, reset password, login
-                    with facebook and google as well as private and protected routes for authenticated user and users
-                    with the role of admin.
+                    with facebook, google and github as well as private and protected routes for authenticated user and users.
         </p>
       </div>
     </Layout>
